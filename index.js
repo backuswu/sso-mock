@@ -53,8 +53,8 @@ app.get('/amazon-login', (req, res) => {
 
 // 读取证书文件
 const sslOptions = {
-  key: fs.readFileSync('./cert/server.key'),
-  cert: fs.readFileSync('./cert/server.crt'),
+  key: fs.readFileSync('./cert/wuyiling.vip.key'),
+  cert: fs.readFileSync('./cert/wuyiling.vip.csr'),
 };
 
 // 用 https 启动服务器
