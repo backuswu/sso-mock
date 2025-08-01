@@ -28,9 +28,9 @@ app.get('/7kzwhaJ02z.txt', (req, res) => {
     }
   });
 });
-app.listen(80, '0.0.0.0', () => {
-  console.log('Listening on port 80');
-});
+// app.listen(80, '0.0.0.0', () => {
+//   console.log('Listening on port 80');
+// });
 
 
 app.get('/amazon-login', (req, res) => {
